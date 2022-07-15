@@ -1,0 +1,35 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant page using dynamically generated DOM elements and Webpack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adi-lux/Restaurant-Page.git"
+  },
+  "keywords": [
+    "restaurant"
+  ],
+  "author": "Adithya Anandsaikrishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adi-lux/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/adi-lux/Restaurant-Page#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
+  }
+}
