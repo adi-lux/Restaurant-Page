@@ -129,4 +129,24 @@ body {
     }
   }
 
+  h1 {
+    @extend %header;
+  }
+
+  .actual-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 1vmin;
+  
+    p {
+      text-align:  start;
+      font-weight: bold;
+    }
+    img {
+      max-width: fit-content;
+    }
+
+  }
 }
