@@ -1,1 +1,3 @@
-import "./style.scss";
+import './style.scss';
+import pageLoader from './pageLoader';
+pageLoader();
